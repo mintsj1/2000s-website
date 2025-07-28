@@ -1,0 +1,41 @@
+
+body {
+    width: 600px;
+    margin: 0 auto;
+    background-color: rgb(253, 253, 253);
+    padding: 0 20px 200px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    color: crimson;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: white;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: crimson;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #ebcaf0;
+    color: rgb(240, 158, 233);
+}
+
+.navbar a.icon {
+    display: none;
+}
